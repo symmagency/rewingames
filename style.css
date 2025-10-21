@@ -1402,7 +1402,7 @@ div#explore_by-cat {
 
 .listagem .imagem-produto img {
     position: relative;
-    width: calc(100% - 48px);
+    width: calc(100%);
     border-radius: 0;
 }
 
@@ -1471,7 +1471,7 @@ button#botaoWhats {
 .listagem .span3 .imagem-produto, .listagem .produtos-carrossel[data-produtos-linha="4"] .imagem-produto {
     height: unset!important;
     text-align: center;
-    padding-top: 24px;
+    padding-top: 0px;
 }
 
 .listagem .span3 .imagem-produto, .listagem .produtos-carrossel[data-produtos-linha="4"] .imagem-produto {
@@ -1596,7 +1596,7 @@ div#porPreco {
     line-height: 20px;
     text-transform: uppercase;
     background: #F8FF38;
-    color: #fff;
+    color: #000;
     font-size: 14px;
     font-weight: bold;
     padding: 4px 8px;
@@ -1636,8 +1636,8 @@ div#porPreco {
 }
 
 .listagem-item .bandeiras-produto {
-    top: 34px;
-    left: 34px;
+    top: 12px;
+    left: 12px;
 }
 
 .listagem-item .acoes-produto .botao {
@@ -1652,7 +1652,7 @@ div#porPreco {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #F8FF38 !important;
+    background: #12a562 !important;
 }
 
 .listagem-item .acoes-produto .botao:hover {
