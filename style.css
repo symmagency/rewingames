@@ -690,7 +690,7 @@ ul.drop-login li:last-child {
 
 .carrinho>a strong {
     background: #F8FF38;
-    color: var(--texto-branco);
+    color: var(--preto);
     width: 20px;
     height: 20px;
     font-size: 12px;
@@ -4723,12 +4723,12 @@ form#formCalcularFrete {
 .cat span.category {
     display: block;
     width: 28px;
-    margin: 0 auto;
+    margin: 0 0 0 20px;
     height: 20px;
 }
 
 #menuCat.scroll.active {
-    top: 86px!important;
+    top: 85px!important;
 }
 
 input#usarCupom {
