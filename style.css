@@ -955,7 +955,7 @@ ul.drop-login li:last-child {
 .menu.superior .nivel-um>li:last-child .titulo:after {
     content: "";
     display: block;
-    background: url(https://cdn.awsli.com.br/2760/2760817/arquivos/percent.svg) center center no-repeat;
+    background: url(https://cdn.awsli.com.br/2727/2727537/arquivos/percent.svg) center center no-repeat;
     width: 24px;
     height: 24px;
 }
@@ -972,7 +972,7 @@ ul.drop-login li:last-child {
 }
 
 .menu.superior .nivel-um>li:last-child > a > strong {
-    color: #5197FF;
+    color: #F8FF38;
     font-weight: bold;
 }
 
@@ -1120,7 +1120,7 @@ ul.drop-login li:last-child {
 }
 
 .banner.cheio .flexslider .flex-direction-nav .flex-next, .banner.cheio .flexslider .flex-direction-nav .flex-prev {
-    background: var(--cor-da-marca);
+    background: var(--preto);
     display: flex;
     align-items: center;
     justify-content: center;
