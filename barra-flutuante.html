@@ -1,0 +1,48 @@
+<div class="barra-mobile">
+    <li>
+        <a href="#modalContato" data-toggle="modal" data-target="#modalContato"><img src="https://cdn.awsli.com.br/2760/2760817/arquivos/forum.svg" alt="">Contato</a>
+    </li>
+    <li>
+        <a href="../conta/pedido/listar"><img src="https://cdn.awsli.com.br/2760/2760817/arquivos/package_2.svg" alt="">Pedidos</a>
+    </li>
+    <li>
+        <a href="../conta/index"><img src="https://cdn.awsli.com.br/2760/2760817/arquivos/account_box.svg" alt="">Conta</a>
+    </li>
+</div>
+
+<style>
+
+@media screen and (min-width: 768px) {
+    .barra-mobile {
+        display: none!important;
+    }
+}
+
+.barra-mobile {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100000;
+    background: #1C1D20;
+    border-top: 2px solid #323336;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 20px;
+}
+
+.barra-mobile a {
+    color: #fff;
+    font-size: 12px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-carrinho .barra-mobile, .carrinho-checkout .barra-mobile {
+    display: none;
+}
+</style>

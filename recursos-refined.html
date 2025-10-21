@@ -1,0 +1,219 @@
+<!-- Funcionalidades Exclusivas -->
+<script>
+
+$(document).ready(function(){
+
+//NAVEGAÇÃO POR CATEGORIA
+
+$('.pagina-inicial .secao-banners').after(`
+
+<div id="explore">
+
+<div class="conteiner">
+    
+    <div class="row-fluid">
+        <div class="append_items">    
+            <li class="explore_item">
+                <a href="https://www.lojakavity.com.br/windows">
+                    <img src="https://cdn.awsli.com.br/2760/2760817/arquivos/windows.png" alt="">
+                    <span>Windows</span>
+                </a>
+            </li>
+
+            <li class="explore_item">
+                <a href="https://www.lojakavity.com.br/pacote-office">
+                    <img src="https://cdn.awsli.com.br/2760/2760817/arquivos/office.png" alt="">
+                    <span>Office</span>
+                </a>
+            </li>
+
+            <li class="explore_item">
+                <a href="https://www.lojakavity.com.br/combos">
+                    <img src="https://cdn.awsli.com.br/2760/2760817/arquivos/combos.png" alt="">
+                    <span>Combos</span>
+                </a>
+            </li>
+
+            <li class="explore_item">
+                <a href="https://www.lojakavity.com.br/games">
+                    <img src="https://cdn.awsli.com.br/2760/2760817/arquivos/games.png" alt="">
+                    <span>Games</span>
+                </a>
+            </li>
+
+            <li class="explore_item">
+                <a href="https://www.lojakavity.com.br/mais-vendidos">
+                    <img src="https://cdn.awsli.com.br/2760/2760817/arquivos/mais-vendidos.png" alt="">
+                    <span>Mais Vendidos</span>
+                </a>
+            </li>
+
+            <li class="explore_item">
+                <a href="https://www.lojakavity.com.br/promocoes">
+                    <img src="https://cdn.awsli.com.br/2760/2760817/arquivos/promocoes.png" alt="">
+                    <span>Promoções</span>
+                </a>
+            </li>
+
+            <li class="explore_item">
+                <a href="#">
+                    <img src="https://cdn.awsli.com.br/2760/2760817/arquivos/outros.png" alt="">
+                    <span>Outros</span>
+                </a>
+            </li>
+        
+        </div>
+    </div>
+</div>
+
+</div>
+
+`);
+
+//VANTAGENS
+
+$('.pagina-inicial .vitrine-mas-vendido').before(`
+
+<div class="vantagens-regua">
+    <li>
+        <img src="https://cdn.awsli.com.br/2760/2760817/arquivos/confiavel.png" alt="">
+        <div class="append_v_text">
+            <strong>
+                Serviço Confiável
+            </strong>
+            <span>
+                Todos os produtos são verificados manualmente para garantir a máxima eficácia.
+            </span>
+        </div>
+    </li>
+
+    <li>
+        <img src="https://cdn.awsli.com.br/2760/2760817/arquivos/price.png" alt="">
+        <div class="append_v_text">
+            <strong>
+                Ótimos preços
+            </strong>
+            <span>
+                Nossas chaves de software são substancialmente mais baratas que nossos concorrentes.
+            </span>
+        </div>
+    </li>
+
+    <li>
+        <img src="https://cdn.awsli.com.br/2760/2760817/arquivos/mail.png" alt="">
+        <div class="append_v_text">
+            <strong>
+                Envio por e-mail
+            </strong>
+            <span>
+                Receba suas chaves de software em minutos. Sem atrasos.
+            </span>
+        </div>
+    </li>
+
+    <li>
+        <img src="https://cdn.awsli.com.br/2760/2760817/arquivos/global.png" alt="">
+        <div class="append_v_text">
+            <strong>
+                Licenças Globais
+            </strong>
+            <span>
+                Sem restrições regionais sobre produtos adquiridos.
+            </span>
+        </div>
+    </li>
+</div>
+
+`);
+
+//Rodapé
+
+$('#rodape .sobre-loja-rodape').append($('.span4.selos'));
+$('.span4.selos ul > li:first-child').after(`
+<li> <img alt="Loja Oficial Mercado Livre" src="https://cdn.awsli.com.br/1041/1041512/arquivos/oficial-ml.png"/> </li>
+<li> <img alt="Google Safe Browsing" src="https://cdn.awsli.com.br/1041/1041512/arquivos/google-s-b.png"/> </li>
+`);
+
+//redes sociais no rodape
+$('.links-rodape-paginas').after($('#rodape .redes-sociais'));
+$('#rodape .redes-sociais').append(`
+<div id="telefoneRodape">
+    <div class="tel_rp">
+        <p>Compre por Telefone ou WhatsApp</p>
+        <a href="https://wa.me/5532985092970?text=Boas-vindas a Loja Kavity! Em que podemos ajudar?"><i class="fa-whatsapp"></i>(32) 98509-2970</a>
+    </div>
+    <div class="envio_rp">
+        <p>Formas de envio</p>
+        <li>
+            <img src="https://cdn.awsli.com.br/2679/2679412/arquivos/envio_digital.svg" alt="Envio Digital">
+        </li>
+    </div>
+    <div class="pagamento_rp">
+        <p>Formas de pagamento</p>
+        <!--<li>
+            <img src="https://cdn.awsli.com.br/2679/2679412/arquivos/boleto.svg" alt="Boleto Bancário">
+        </li> -->
+        <li>
+            <img src="https://cdn.awsli.com.br/2679/2679412/arquivos/cartao.svg" alt="Cartão de crédito">
+        </li>
+        <li>
+            <img src="https://cdn.awsli.com.br/2679/2679412/arquivos/pix.svg" alt="Pix">
+        </li>
+    </div>
+</div>`);
+
+//Vantagens página produto
+$('.produto .conteiner-imagem').prepend(`
+
+<div class="vantagens-regua">
+    <li>
+        <div class="append_v_text">
+            <strong>
+                Serviço Confiável
+            </strong>
+            <span>
+                Todos os produtos são verificados manualmente para garantir a máxima eficácia.
+            </span>
+        </div>
+    </li>
+
+    <li>
+        <div class="append_v_text">
+            <strong>
+                Ótimos preços
+            </strong>
+            <span>
+                Nossas chaves de software são substancialmente mais baratas que nossos concorrentes.
+            </span>
+        </div>
+    </li>
+
+    <li>
+        <div class="append_v_text">
+            <strong>
+                Envio por e-mail
+            </strong>
+            <span>
+                Receba suas chaves de software em minutos. Sem atrasos.
+            </span>
+        </div>
+    </li>
+
+    <li>
+        <div class="append_v_text">
+            <strong>
+                Licenças Globais
+            </strong>
+            <span>
+                Sem restrições regionais sobre produtos adquiridos.
+            </span>
+        </div>
+    </li>
+</div>
+
+
+`)
+
+});
+
+</script>
